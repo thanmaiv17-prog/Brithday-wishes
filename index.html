@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Lahari 🌸</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<!-- PAGE 1 : INTRO -->
+<section class="page active" id="intro">
+    <div class="intro-content">
+        <p class="small-text">A LITTLE SURPRISE HAS BEEN CREATED...</p>
+
+        <h1>
+            For the one who holds a <br>
+             special place in my heart ✨
+        </h1>
+
+        <p class="intro-message">
+            This little journey was made with lots of memories,
+            smiles and special moments for your special day.
+        </p>
+
+        <button onclick="showPage('door')">
+            ✨ ENTER
+        </button>
+    </div>
+</section>
+
+
+<!-- PAGE 2 : DOOR -->
+<section class="page" id="door">
+    <div class="quote-content">
+
+        <p class="quote">
+            “Some people walk into our lives<br>
+            and make them brighter forever.”
+        </p>
+
+        <div class="door">
+            <div class="door-top">
+                SOMEONE HAS BEEN<br>
+                WAITING FOR YOU...
+            </div>
+
+            <button class="door-handle" onclick="showPage('welcome')">
+                🔑
+            </button>
+
+            <p>Hover and click the golden handle to unlock</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- PAGE 3 : WELCOME -->
+<section class="page" id="welcome">
+    <div class="card">
+
+        <p class="chapter">A LITTLE SURPRISE FOR YOU</p>
+
+        <h1>Welcome, Lahari 🌸</h1>
+
+        <p>Today isn't just your birthday...</p>
+
+        <p>
+            It's a celebration of the wonderful person you are
+            and all the beautiful memories we've created together.
+        </p>
+
+        <p>
+            So here's a little interactive memory book
+            made especially for you. 💫
+        </p>
+
+        <button onclick="showPage('memories')">
+            ✨ BEGIN THE JOURNEY
+        </button>
+
+    </div>
+</section>
+
+
+<!-- PAGE 4 : MEMORIES -->
+<section class="page" id="memories">
+    <div class="memory-page">
+
+        <p class="chapter">CHAPTER 1</p>
+
+        <h1>Our Memories 📸</h1>
+
+        <div class="photo-grid">
+
+            <img src="photo11.jpg" alt="Memory 11">
+            <img src="photo2.jpg" alt="Memory 2">
+            <img src="photo3.jpg" alt="Memory 3">
+            <img src="photo4.jpg" alt="Memory 4">
+            <img src="photo5.jpg" alt="Memory 5">
+            <img src="photo6.jpg" alt="Memory 6">
+            <img src="photo7.jpg" alt="Memory 7">
+            <img src="photo8.jpg" alt="Memory 8">
+            <img src="photo9.jpg" alt="Memory 9">
+            <img src="photo10.jpg" alt="Memory 10">
+            <img src="photo12.jpg" alt="Memory 12">
+            <img src="photo13.jpg" alt="Memory 13">
+            <img src="photo14.jpg" alt="Memory 14">
+            <img src="photo15.jpg" alt="Memory 15">
+            <img src="photo16.jpg" alt="Memory 16">
+            <img src="photo17.jpg" alt="Memory 17">
+            <img src="photo18.jpg" alt="Memory 18">
+            <img src="photo19.jpg" alt="Memory 19">
+            <img src="photo20.jpg" alt="Memory 20">
+       
+        </div>
+
+        <p class="memory-quote">
+            Every picture tells a story.<br>
+            Every story reminds me how lucky I am to have you in my life. ❤️
+        </p>
+
+        <button onclick="showPage('celebrate')">
+            ✨ CONTINUE THE JOURNEY
+        </button>
+
+    </div>
+</section>
+
+
+<!-- PAGE 5 : CELEBRATING -->
+<section class="page" id="celebrate">
+    <div class="info-page">
+
+        <p class="chapter">CHAPTER 2</p>
+
+        <h1>Celebrating Lahari 🎉</h1>
+
+        <div class="info-grid">
+
+            <div class="info-card">
+                <span>🎂</span>
+                <h3>BIRTHDAY</h3>
+                <p>September 28</p>
+            </div>
+
+            <div class="info-card">
+                <span>💚💙</span>
+                <h3>FAV COLOR</h3>
+                <p>Thanma & Venkata lakshmi colors</p>
+            </div>
+
+            <div class="info-card">
+                <span>🎵</span>
+                <h3>FAV SONG</h3>
+                <p>Thanmai&Venkata lakshmi songs</p>
+            </div>
+
+            <div class="info-card">
+                <span>✈️</span>
+                <h3>DREAM</h3>
+                <p>Travel With my 2 besties</p>
+            </div>
+
+
+            <div class="info-card">
+                <span>❤️</span>
+                <h3>THREE WORDS</h3>
+                <p>Kind, Caring, Adventurous</p>
+            </div>
+
+        </div>
+
+        <button onclick="showPage('special')">
+            ✨ CONTINUE
+        </button>
+
+    </div>
+</section>
+
+
+<!-- PAGE 6 : 10 SPECIAL THINGS -->
+<section class="page" id="special">
+    <div class="special-page">
+
+        <p class="chapter">CHAPTER 3</p>
+
+        <h1>10 Things That Make You Special 🌟</h1>
+
+        <div class="special-grid">
+
+            <button class="special-card"
+                onclick="openSpecial('Your Smile')">
+                😊
+                <span>Your Smile</span>
+            </button>
+
+            <button class="special-card"
+                onclick="openSpecial('Your Laugh')">
+                😂
+                <span>Your Laugh</span>
+            </button>
+
+            <button class="special-card"
+                onclick="openSpecial('Your Kindness')">
+                💕
+                <span>Your Kindness</span>
+            </button>
+
+            <button class="special-card"
+                onclick="openSpecial('Caring Heart')">
+                💗
+                <span>Caring Heart</span>
+            </button>
+
+            <button class="special-card"
+                onclick="openSpecial('Your Positivity')">
+                ✨
+                <span>Your Positivity</span>
+            </button>
+
+            <button class="special-card"
+                onclick="openSpecial('Your Strength')">
+                🌟
+                <span>Your Strength</span>
+            </button>
+
+            <button class="special-card"
+                onclick="openSpecial('Your Support')">
+                🤝
+                <span>Your Support</span>
+            </button>
+
+            <button class="special-card"
+                onclick="openSpecial('Your Friendship')">
+                🫶
+                <span>Your Friendship</span>
+            </button>
+
+            <button class="special-card"
+                onclick="openSpecial('Your Honesty')">
+                💎
+                <span>Your Honesty</span>
+            </button>
+
+            <button class="special-card"
+                onclick="openSpecial('Beautiful Soul')">
+                🌸
+                <span>Beautiful Soul</span>
+            </button>
+
+        </div>
+
+        <button onclick="showPage('letter')">
+            ✨ NEXT CHAPTER
+        </button>
+
+    </div>
+</section>
+
+
+<!-- SPECIAL POPUP -->
+<div class="modal" id="specialModal">
+
+    <div class="modal-box">
+
+        <p class="chapter">WHY YOU ARE SPECIAL</p>
+
+        <h2 id="specialTitle">Your Smile</h2>
+
+        <p>
+            You have a beautiful way of making ordinary moments
+            feel happier. Your presence, kindness and positive
+            nature make the people around you smile too. 🌸
+        </p>
+
+        <button onclick="closeSpecial()">
+            CLOSE
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- PAGE 7 : LETTER -->
+<section class="page" id="letter">
+
+    <div class="letter-page">
+
+        <p class="chapter">CHAPTER 4</p>
+
+        <h1>A Letter For You 💌</h1>
+
+        <div class="envelope">
+
+            <div class="envelope-top">💌</div>
+
+            <p>Click to open</p>
+
+            <button onclick="openLetter()">
+                OPEN LETTER
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- LETTER CONTENT -->
+<section class="page" id="letterContent">
+
+    <div class="letter-content">
+
+        <div class="paper">
+
+            <p>Dearest Lahari,</p>
+
+            <h1>Happy Birthday! 🌸</h1>
+
+            <p>
+                Today is a special day Enduku ani ante nii
+                birthday nuvvu naa life loki vachinappati 
+                nunchi chala memories create ayyayi.Mana 
+                friendship lo enno fights and arguments 
+                jaragayi but at the end of the day mana 
+                bond matram alane undi. 
+
+            </p>
+
+            <p>
+                Asalu mana friendship ayyinappudu Mana
+                bond intha strong avutundi ani asalu expect
+                cheyyaledu.kani mana madyalo jarigina anni
+                memories,godavalu inka funny movements manaki
+                chala special chesayi.
+            </p>
+
+            <p>
+                mana madyalo enni godavalu vachina evaru
+                em anna manam chivarivaruku ilane vundal.
+                eppatiki manam 3 monkeys lane vundali.
+            </p>
+
+            <p>
+                And final gaa cheppedi enti ante manam
+                eppudu ilane vundali vuntam kuda. and 
+                Thank u for being in my life. ✨
+            </p>
+
+            <p>
+                Wishing you the happiest birthday and a year
+                filled with wonderful memories!
+            </p>
+
+            <p class="signature">
+                Always keep smiling 🌸<br>
+                Your Bestie 🤍
+            </p>
+
+            <button onclick="showPage('wish')">
+                ✨ ONE LAST SURPRISE
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PAGE 8 : MAKE A WISH -->
+<section class="page" id="wish">
+
+    <div class="wish-page">
+
+        <p class="chapter">A SPECIAL MOMENT</p>
+
+        <h1>Make a Wish... ✨</h1>
+
+        <div class="cake">
+            🎂
+        </div>
+
+        <p>
+            Close your eyes, make a beautiful wish
+            and get ready for the final surprise. 🌟
+        </p>
+
+        <button onclick="showPage('final')">
+            ✨ MAKE MY WISH
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- PAGE 9 : FINAL -->
+<section class="page" id="final">
+
+    <div class="final-page">
+
+        <div class="balloons">
+            🎈 🎈 🎈
+        </div>
+
+        <p class="small-text">THE JOURNEY ENDS HERE...</p>
+
+        <h1>
+            Happiest Birthday My gurll 🤍
+        </h1>
+
+        <p class="final-message">
+            Tq for being in my life.No matter what happens
+            you will always have a special place in my heart.
+        </p>
+
+        <h2>ALWAYS AND FOREVER ✨</h2>
+
+        <p>
+            WITH LOTS OF LOVE & BEST WISHES 🌸
+        </p>
+
+        <div class="confetti">
+            ✨ 🎉 ✨ 🎈 ✨ 🎉 ✨
+        </div>
+
+    </div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
